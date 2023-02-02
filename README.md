@@ -46,3 +46,18 @@ print(fido.colour)
 
 ```
 Initialising a class with class variables is good practice. It is possible to set variables at class level but should stay away form this
+
+### name and main 
+
+```python
+def main():
+    #pass
+    print("This is mod1's name -> " + __name__)
+
+if __name__ == "__main__":
+    main()
+```
+
+```python
+print("This is mod2's name -> " + __name__)
+```
